@@ -7,14 +7,14 @@
 // make some of these false to reduce compile size (the ones you don't want).
 // The Atmega328 is always included (Both Uno and Lilypad versions).
 
-#define USE_ATMEGA8 true
+//#define USE_ATMEGA8 true
 #define USE_ATMEGA16U2 true    // Uno USB interface chip
 #define USE_ATMEGA32U4 true    // Leonardo
-#define USE_ATMEGA168 true
-#define USE_ATMEGA1280 true
-#define USE_ATMEGA1284 true
-#define USE_ATMEGA2560 true
-#define USE_ATMEGA256RFR2 false // Pinoccio Scout
+//#define USE_ATMEGA168 true
+//#define USE_ATMEGA1280 true
+//#define USE_ATMEGA1284 true
+//#define USE_ATMEGA2560 true
+//#define USE_ATMEGA256RFR2 false // Pinoccio Scout
 
 /* ----------------------------------------------------------------------------
 WARNING: The Arduino Leonardo, Arduino Esplora and the Arduino Micro all use the same chip (ATmega32U4).
